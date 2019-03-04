@@ -15,7 +15,7 @@ RUN apt-get update \
 	&& apt-get install -y apt-utils \
 	&& apt-get install -y openssl 
 
-# Install MCrypt - no, see above
+# do not Install MCrypt - see openssl above
 # RUN apt-get update \
     # && apt-get install -y libmcrypt-dev \
     #&& docker-php-ext-install mcrypt
@@ -42,8 +42,8 @@ RUN curl -sS https://getcomposer.org/installer | php \
 # Install mbstring
 RUN docker-php-ext-install mbstring
 
-# Install simplexml
-RUN apt-get install -y php-simplexml
+# Install simplexml - skip for now (not available for 7.2 as it seems, 04.03.19
+# RUN apt-get install -y php-simplexml
 
 # Install soap
 RUN apt-get update \
