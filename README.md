@@ -2,7 +2,7 @@ Base PHP with Apache Docker Container, adapted for use with [Grav CMS](https://l
 =====================================
 Cloned from (https://github.com/webgriffe/docker-php-apache-base)
 
-##please note that this Project is no longer developed/modified further as I finally switched to the official [Grav Docker Project](https://github.com/getgrav/docker-grav)
+##please note that this Project is no longer developed/modified further as I finally switched to the official [Grav Docker Project](https://github.com/getgrav/docker-grav)##
 
 [![](https://images.microbadger.com/badges/version/webgriffe/php-apache-base.svg)](http://microbadger.com/images/webgriffe/php-apache-base "Get your own version badge on microbadger.com")
 [![](https://images.microbadger.com/badges/image/webgriffe/php-apache-base.svg)](http://microbadger.com/images/webgriffe/php-apache-base "Get your own version badge on microbadger.com")
